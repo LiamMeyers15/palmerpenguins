@@ -12,8 +12,8 @@ output:
 ## Get Data
 
 ```{r}
-install.packages("palmerpenguins")
 library(palmerpenguins)
+library(dplyr)
 
 penguins <- palmerpenguins::penguins
 head(penguins)
